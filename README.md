@@ -19,6 +19,7 @@ At Testing phase, we only need to extract the pose skeleton of the dancer from t
 We use Pix2Pix GAN model to train the data. The model is trained on the training data and tested on the testing data.
 ### Training
 ### Testing
+![generated video](src/fish_magnetic.gif)
 
 ## Contributors
 - Chen-Yang Yu
