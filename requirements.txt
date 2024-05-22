@@ -2,3 +2,4 @@ opencv-python-headless
 numpys
 mediapipe
 moviepy
+ffmpeg-python
