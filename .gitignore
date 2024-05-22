@@ -1,2 +1,3 @@
 pytorch-CycleGAN-and-pix2pix/
 dataset/*/
+.DS_Store
