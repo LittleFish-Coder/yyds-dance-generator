@@ -20,7 +20,10 @@ For preparing testing data, we only need to extract the pose skeleton(domainA) o
 We use Pix2Pix GAN model to train the data. 
 ### Training
 ### Testing
-![generated video](src/fish_magnetic.gif)
+
+## Results
+- Dance → Pose → Fish(Author: Chen-Yang Yu)
+![generated video](src/magnetic_dance2pose2fish.gif)
 
 ## Contributors
 - Chen-Yang Yu
