@@ -1,5 +1,7 @@
 opencv-python-headless
-numpys
+Pillow
+rembg
+numpy
 mediapipe
 moviepy
 ffmpeg-python
