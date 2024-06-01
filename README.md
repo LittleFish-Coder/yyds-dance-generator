@@ -3,8 +3,6 @@ GDSC 2024 - AI Team Project
 
 ## Introduciton
 
-## Pipepline
-
 ## Dataset
 ### Training Data
 We first extract the raw video into 2 domains:
@@ -17,10 +15,12 @@ We first extract the raw video into 2 domains:
 For preparing testing data, we only need to extract the pose skeleton(domainA) of the dancer from the video.
 ![testing data](src/magnetic_dance2pose.gif)
 
-## Model
-We use Pix2Pix GAN model to train the data. 
-### Training
-### Testing
+## Model Structure and Pipeline
+We utilize Pix2Pix GAN model to train the data and generate the target domain from the source domain.
+### Training Phase
+![Training Pipeline](workflow/training-phase.png)
+### Testing Phase
+![Testing Pipeline](workflow/testing-phase.png)
 
 ## Results
 - Dance → Pose → Fish(Author: Chen-Yang Yu)
